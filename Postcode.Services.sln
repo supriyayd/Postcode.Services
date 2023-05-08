@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Postcode.API", "Postcode.AP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaFunction", "LambdaFunction\LambdaFunction.csproj", "{B3268007-3365-4425-AB3B-A179420CB090}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaAPI", "LambdaAPI\LambdaAPI.csproj", "{B80D4675-CA5D-43E3-96B9-7A8D6D9CC487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B3268007-3365-4425-AB3B-A179420CB090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3268007-3365-4425-AB3B-A179420CB090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3268007-3365-4425-AB3B-A179420CB090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80D4675-CA5D-43E3-96B9-7A8D6D9CC487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80D4675-CA5D-43E3-96B9-7A8D6D9CC487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80D4675-CA5D-43E3-96B9-7A8D6D9CC487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80D4675-CA5D-43E3-96B9-7A8D6D9CC487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
