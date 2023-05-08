@@ -18,8 +18,7 @@ namespace LambdaAPI.Controllers;
             _postcodeService=postcodeService;
         }
 
-        [HttpGet]
-        [Route("GetPartialPostcode")]
+        [HttpGet()]
         public async Task<ActionResult> GetPartialPostcode(string postcode, int skip=0)
         {
             try
@@ -44,8 +43,7 @@ namespace LambdaAPI.Controllers;
         }
 
 
-        [HttpGet]
-        [Route("GetPostcodeDetails")]
+        [HttpGet("{postcode}")]
         public async Task<ActionResult> GetPostcodeDetails(string postcode)
         {
             try

@@ -52,7 +52,11 @@ public class Startup
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllers();
-            
+            endpoints.MapGet("/", async context =>
+            {
+                await context.Response.WriteAsync("Welcome to running api for postcode");
+            });
+
         });
     }
 

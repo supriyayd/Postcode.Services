@@ -13,5 +13,5 @@
     "template"      : "serverless.template",
     "template-parameters" : "",
     "s3-bucket"           : "postcode-api",
-    "stack-name"          : "postcode"
+    "stack-name"          : "postcode-v1"
 }
