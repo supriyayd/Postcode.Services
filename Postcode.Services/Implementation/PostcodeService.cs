@@ -57,6 +57,7 @@ namespace Postcode.Services.Implementation
                     {
                         string apiResponse = await response.Content.ReadAsStringAsync();
                         var result= JsonConvert.DeserializeObject<LookupPostcode>(apiResponse);
+                        if(result.result!=null)
                         return GetPostalcodeResponse(result);
                     }
                 }
@@ -66,7 +67,7 @@ namespace Postcode.Services.Implementation
 
                 return null;
             }
-
+            return null;
         }
 
 
