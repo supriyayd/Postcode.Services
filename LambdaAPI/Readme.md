@@ -58,12 +58,12 @@ If already installed check if new version is available.
 
 Execute unit tests
 ```
-    cd "LambdaAPI/test/LambdaAPI.Tests"
+    cd .\LambdaAPI\
     dotnet test
 ```
 
 Deploy application
 ```
-    cd "LambdaAPI/src/LambdaAPI"
+    cd .\LambdaAPI\
     dotnet lambda deploy-serverless
 ```
